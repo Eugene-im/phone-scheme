@@ -25,7 +25,7 @@ var path = {
     src: {
         html: 'src/*.html',
         js: 'src/js/main.js',
-        style: 'src/style/main.scss',
+        style: 'src/style/style.scss',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
@@ -43,7 +43,7 @@ var config = {
     server: {
         baseDir: "./build"
     },
-    tunnel: true,
+    // tunnel: true,
     host: 'localhost',
     port: 9000,
     logPrefix: "Frontend_Devil"

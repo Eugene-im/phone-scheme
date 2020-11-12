@@ -8,3 +8,74 @@ header, footer{
 	width:100%;
 	margin:0 auto;
 }
+.frame,.first_row,.second_row,.third_row,.img_block2_1,.img_block3_1{
+	display: flex;
+	align-items: center;
+}
+.first_row,.third_row{
+	justify-content: center;
+}
+.size1{
+	align-self: flex-start;
+	border: 1px solid red;
+	border-right:1px dotted #000;
+	border-left:none;
+	height: 23px;
+	margin-top: 15px;
+	line-height: 23px;
+}
+.size2{
+	align-self: flex-end;
+	border: 1px solid red;
+	border-right:none;
+	border-left:1px dotted #000;
+	height: 23px;
+	line-height: 23px;
+	margin-bottom: 10px;
+}
+.img_block2{
+	margin-right: 20px;
+}
+.size3,.size5{
+	align-self: flex-start;
+	border: 1px solid red;
+	border-bottom:1px dotted #000;
+	border-top:none;
+	height: 23px;
+	margin-top: 10px;
+	text-align: center;
+	width: 178px;
+	margin-left: 50px;
+}
+.size3{
+	width: 158px;
+	margin-left: 50px;
+}
+.size4,.size6{
+	align-self: flex-start;
+	border: 1px solid red;
+	border-right:1px dotted #000;
+	border-left:none;
+	height: 308px;
+	line-height: 308px;
+	margin-top: 20px;
+	padding-right: 10px;
+}
+.size6{
+	height: 329px;
+	line-height: 349px;
+	margin-top: 10px;
+}
+.img_block1,.img_block4{
+	margin-top: 20px;
+}
+ul{
+	list-style-type: square
+}
+.size_frame{
+	margin-left: 50px;
+}
+h1{
+	font: Arsenal;
+	font-size: 25px;
+}

@@ -12,6 +12,12 @@ header, footer{
 	display: flex;
 	align-items: center;
 }
+.frame{
+	flex-direction: column;
+}
+.size_frame{
+	align-self: flex-end;
+}
 .first_row,.third_row{
 	justify-content: center;
 }
@@ -78,4 +84,9 @@ ul{
 h1{
 	font: Arsenal;
 	font-size: 25px;
+}
+td{
+	border: 1px solid #000;
+	vertical-align: bottom;
+	padding: 2px;
 }
